@@ -1,0 +1,41 @@
+body{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+h1.about{
+    color: orange;
+}
+ul{
+    list-style-type: none;
+}
+#navbar{
+    height: 35px;
+    background-color: orange;
+    border-radius: 8px;
+    margin: 0px 35% 100px 35%;
+}
+#navbar ul{
+    height: auto;
+    padding: 8px 0px;
+}
+#navbar li{
+    display: inline;
+    padding: 20px;
+}
+#navbar a{ 
+    text-decoration:none;
+    color: rgb(53, 4, 53);
+    border-style: none none dashed none;
+    border-width: 1px;
+}
+img{
+    width:300px;
+    height:300px;
+    border-radius: 50%;
+}
+#social img{
+    width:100px;
+    height:100px;
+    border-radius: 50%;
+}
