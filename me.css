@@ -50,3 +50,11 @@ and (max-device-width: 500px)
        
     }
 }
+@media only screen 
+and (max-device-width: 700px)
+{
+    #social img{
+        width:10em;
+        height:10em;
+    }
+}
