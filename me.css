@@ -10,51 +10,43 @@ ul{
     list-style-type: none;
 }
 #navbar{
-    height: 35px;
     background-color: orange;
-    border-radius: 8px;
-    margin: 0px 35% 100px 35%;
+    border-radius: 0.5em;
+    margin: 0em 10em 5em 10em;
+    /* width: 10em; */
+    font-size: 1.5em;
 }
 #navbar ul{
-    height: auto;
-    padding: 8px 0px;
+    padding: 0.5em 0em;
 }
 #navbar li{
     display: inline;
-    padding: 20px;
+    padding: 1.5em;
 }
 #navbar a{ 
     text-decoration:none;
     color: rgb(53, 4, 53);
     border-style: none none dashed none;
-    border-width: 1px;
+    border-width: 0.1em;
 }
 img{
-    width:300px;
-    height:300px;
+    width:15em;
+    height:15em;
     border-radius: 50%;
 }
 #social img{
-    width:100px;
-    height:100px;
+    width:5em;
+    height:5em;
     border-radius: 50%;
 }
 
 
 /* Add Mobile views */
 @media only screen 
-and (max-device-width: 600px)
+and (max-device-width: 500px)
 {
     #navbar{
-        height: 35px;
-        background-color: orange;
-        border-radius: 8px;
-        margin: 0px 20% 100px 20%;
+       margin: 0em 5em 5em 5em;
+       
     }
-}
-
-@media only screen 
-and (max-device-width: 1000px)
-{
-
 }
