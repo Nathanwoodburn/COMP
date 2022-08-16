@@ -39,3 +39,22 @@ img{
     height:100px;
     border-radius: 50%;
 }
+
+
+/* Add Mobile views */
+@media only screen 
+and (max-device-width: 600px)
+{
+    #navbar{
+        height: 35px;
+        background-color: orange;
+        border-radius: 8px;
+        margin: 0px 20% 100px 20%;
+    }
+}
+
+@media only screen 
+and (max-device-width: 1000px)
+{
+
+}
