@@ -14,20 +14,20 @@
 <body>
     <h1>Feedback Form</h1>
     <br>
-    <form enctype="text/plain" action="mailto:COMP1710@nathan.woodburn.id.au">
+    <form action="mailto:COMP1710@nathan.woodburn.id.au" method="post" enctype="text/plain">
         Your Name:
-        <input type="text" name="name"><br>
+        <input type="text" name="Name"><br>
         Your Email:
-        <input type="email" name="email"><br>
+        <input type="email" name="Email"><br>
         Your is your gender:<br>
-        <input type="radio" id="male" name="age" value="male">
-        <label for="male">Male</label><br>
-        <input type="radio" id="female" name="age" value="female">
-        <label for="female">Female</label><br>  
-        <input type="radio" id="other" name="age" value="other">
-        <label for="other">Other</label><br>
-        <input type="radio" id="unspecified" name="age" value="unspecified">
-        <label for="unspecified">I prefer not to say</label><br><br>
+        <input type="radio" id="Male" name="Gender" value="Male">
+        <label for="Male">Male</label><br>
+        <input type="radio" id="Female" name="Gender" value="Female">
+        <label for="Female">Female</label><br>  
+        <input type="radio" id="Other" name="Gender" value="Other">
+        <label for="Other">Other</label><br>
+        <input type="radio" id="Unspecified" name="Gender" value="Unspecified">
+        <label for="Unspecified">I prefer not to say</label><br><br>
         Please fill in your feedback:
         <input type="text" name="feedback"><br><br>
         <input type="submit" value="Submit">
