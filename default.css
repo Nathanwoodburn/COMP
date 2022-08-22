@@ -70,15 +70,7 @@ and (max-device-width: 1000px)
 and (max-device-width: 770px)
 {
     #navbar {
-        margin: auto;
+        font-size: auto;
         
      }
 }
-/* @media only screen 
-and (max-device-width: 700px)
-{
-    img.social {
-        width:10em;
-        height:10em;
-    }
-} */
