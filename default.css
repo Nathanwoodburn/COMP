@@ -4,7 +4,7 @@ body {
     text-align: center;
 }
 a {
-    color: purple;
+    color: rgb(255, 67, 255);
 }
 /* This ul style removes the bullets from unordered lists */
 ul {
@@ -15,6 +15,7 @@ ul {
     border-radius: 0.5em;
     margin: 0em 10em 5em 10em;
     font-size: 1.5em;
+    text-transform:uppercase;
 }
 #navbar ul {
     padding: 0.5em 0em;
@@ -42,11 +43,21 @@ img.social {
 h1.orange {
     color: orange;
 }
+footer {
+    margin-top: 2em;
+}
+footer a{
+    margin: 0 5%;
+}
+footer p {
+    display: inline;
+}
+
 /* Add Mobile views */
 @media only screen 
 and (max-device-width: 500px)
 {
-    #navbar{
+    #navbar {
        margin: 0em 5em 5em 5em;
        
     }
@@ -54,7 +65,7 @@ and (max-device-width: 500px)
 @media only screen 
 and (max-device-width: 700px)
 {
-    img.social  {
+    img.social {
         width:10em;
         height:10em;
     }

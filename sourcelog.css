@@ -5,6 +5,9 @@ table, th, td{
     margin-left: auto;
     margin-right: auto;
 }
+table a {
+    color: #0000EE;
+}
 caption{
     color: white;
 }
