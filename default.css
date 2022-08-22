@@ -43,19 +43,23 @@ img.social {
 h1.orange {
     color: orange;
 }
+
 footer {
     margin-top: 2em;
 }
 footer a{
-    margin: 0 5%;
+    margin: 0 2%;
 }
+/* Make text in footer inline with links and don't allow spliting the text*/
+/* This moves the text down below links when on mobile */
 footer p {
     display: inline;
+    white-space: nowrap ;
 }
 
-/* Add Mobile views */
+/* Change format on smaller screens */
 @media only screen 
-and (max-device-width: 500px)
+and (max-device-width: 1000px)
 {
     #navbar {
        margin: 0em 5em 5em 5em;
