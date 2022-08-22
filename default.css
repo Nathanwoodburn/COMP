@@ -69,8 +69,12 @@ and (max-device-width: 1000px)
 @media only screen 
 and (max-device-width: 770px)
 {
+    #navbar li{
+        display: block;
+        padding: .2em 0;
+      }
     #navbar {
-        font-size: auto;
         
-     }
+    }
+      
 }
