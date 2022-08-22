@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Feedback | Nathan Woodburn</title>
+    <link rel="stylesheet" href="default.css">
     <link rel="stylesheet" href="feedback.css">
     <link rel="icon" type="image/png" sizes="16x16" href="images/NJW%20Icon%2016.png">
     <link rel="icon" type="image/png" sizes="32x32" href="images/NJW%20Icon%2032.png">
@@ -13,15 +14,17 @@
     <link rel="icon" type="image/png" sizes="512x512" href="images/NJW%20Icon%20512.png">
 </head>
 <body>
-    <h1>Feedback</h1>
-    <h3>Do you have anything you would like to share?<br>Please use the form below to send me your feedback</h2>
+    <h1 class="orange">Feedback</h1>
+    <h3>Do you have anything you would like to share?<br>
+        Please use the form below to send me your feedback<br>
+        This form will open your default email client in order to email the form results.</h3>
     <br>
     <form action="mailto:COMP1710@nathan.woodburn.id.au" method="post" enctype="text/plain">
         Your Name:
         <input class="text" type="text" name="Name"><br>
         Your Email:
         <input class="text" type="email" name="Email"><br>
-        What is your gender:<br>
+        Gender:<br>
         <input class="radio" type="radio" id="Male" name="Gender" value="Male">
         <label for="Male">Male</label><br>
         <input class="radio" type="radio" id="Female" name="Gender" value="Female">
@@ -33,7 +36,7 @@
         Please fill in your feedback:
         <input class="text" type="text" name="feedback"><br><br>
         <input class="button" type="submit" value="Submit">
-        <input class="button" type="reset" value="Cancel">
+        <input class="button" type="reset" value="Clear">
     </form>
 </body>
 </html>

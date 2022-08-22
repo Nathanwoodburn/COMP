@@ -1,46 +1,47 @@
-body{
+body {
     background-color: black;
     color: white;
     text-align: center;
 }
-h1.about{
-    color: orange;
+a {
+    color: purple;
 }
-ul{
+/* This ul style removes the bullets from unordered lists */
+ul {
     list-style-type: none;
 }
-#navbar{
+#navbar {
     background-color: orange;
     border-radius: 0.5em;
     margin: 0em 10em 5em 10em;
-    /* width: 10em; */
     font-size: 1.5em;
 }
-#navbar ul{
+#navbar ul {
     padding: 0.5em 0em;
 }
-#navbar li{
+#navbar li {
     display: inline;
     padding: 1.5em;
 }
-#navbar a{ 
+#navbar a { 
     text-decoration:none;
     color: rgb(53, 4, 53);
     border-style: none none dashed none;
     border-width: 0.1em;
 }
-img{
+img.profile {
     width:15em;
     height:15em;
     border-radius: 50%;
 }
-#social img{
+img.social {
     width:5em;
     height:5em;
     border-radius: 50%;
 }
-
-
+h1.orange {
+    color: orange;
+}
 /* Add Mobile views */
 @media only screen 
 and (max-device-width: 500px)
@@ -53,7 +54,7 @@ and (max-device-width: 500px)
 @media only screen 
 and (max-device-width: 700px)
 {
-    #social img{
+    img.social  {
         width:10em;
         height:10em;
     }

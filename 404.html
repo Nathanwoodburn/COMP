@@ -1,0 +1,45 @@
+<!-- 404 Page reused from https://nathan.woodburn.id.au -->
+
+<!DOCTYPE html>
+<html lang="en-au">
+
+<head>
+    <meta charset="utf-8">
+    <title>404 | Nathan Woodburn</title>
+    <link rel="stylesheet" href="default.css">
+    <link rel="stylesheet" href="404.css">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/NJW%20Icon%2016.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/NJW%20Icon%2032.png">
+    <link rel="icon" type="image/png" sizes="180x180" href="images/NJW%20Icon%20180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="images/NJW%20Icon%20192.png">
+    <link rel="icon" type="image/png" sizes="512x512" href="images/NJW%20Icon%20512.png">
+</head>
+
+<body>
+<p>HTTP: <span>404</span></p>
+<div style="text-align: center;">
+    <div style="display: inline-block; text-align: left;">
+<code><span>this_page</span>.<em>not_found</em> = true;</code>
+<code><span>if</span> (<b>you_spelt_it_wrong</b>){<br><span>autocorrect</span>.<em>enable</em>();<br>}</code>
+<code><span>else</span>{<br><em>alert</em>(<i>"Strewth mate, you're lost! Fair dinkum, why are you here?"</i>);<br><span>window</span>.<em>location</em> = home;<br>}</code>
+
+</div>
+    </div>
+<!-- Run script to display message and redirect users home -->
+  <script type="text/javascript">
+    function callback(){
+    return function(){
+        alert("Strewth mate, you're lost! Fair dinkum, why are you here?");
+        window.location = '/';
+    }
+}
+var a = "world";
+setTimeout(callback(), 5000);
+    
+
+    </script>
+    <!-- js for typing animation -->
+    <script src="404.js"></script>
+</body>
+
+</html>
