@@ -13,7 +13,10 @@ ul {
 #navbar {
     background-color: orange;
     border-radius: 0.5em;
-    margin: 0em 10em 5em 10em;
+
+    /* margin: 0em 10em 5em 10em; */
+    width: 22em;
+    margin: auto;
     font-size: 1.5em;
     text-transform:uppercase;
 }
@@ -57,24 +60,17 @@ footer p {
     white-space: nowrap ;
 }
 
-/* Change format on smaller screens */
+/* Change format for navbar on smaller screens */
 @media only screen 
-and (max-device-width: 1000px)
+and (max-device-width: 550px)
 {
     #navbar {
-       margin: 0em 5em 5em 5em;
-       
+        width: 6em;
     }
-}
-@media only screen 
-and (max-device-width: 770px)
-{
     #navbar li{
-        display: block;
-        padding: .2em 0;
-      }
-    #navbar {
         
-    }
-      
+        display: block;
+        height: 1.5em;
+        padding: 0;
+      }
 }
