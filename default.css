@@ -91,12 +91,23 @@ img.social {
     border-radius: 50%;
 }
 
-/* Stick div to the bottom of page */
-.sticky {
-    position: absolute;
-    width: 95%;
-    bottom: 1em;
-    margin-top: 2em;
+/* Stick div to the bottom of page of desktop only */
+@media only screen
+and (min-device-width: 650px)
+{
+    .sticky {
+        position: absolute;
+        width: 95%;
+        bottom: 1em;
+        margin-top: 2em;
+    }
+}
+@media only screen
+and (max-device-width: 650px)
+{
+    .sticky {
+        margin-top: 5em;
+    }
 }
 /* Add gap between content and footer */
 footer {
