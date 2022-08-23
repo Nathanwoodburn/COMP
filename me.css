@@ -28,6 +28,15 @@ ol, p, p.timeline, li {
     font-size: x-large;
 }
 
+/* Add extra gap between goal list items and less gap between paragraphs*/
+#goals li {
+    margin-bottom: 1em;
+}
+p.goals {
+    margin: 0;
+}
+
+
 /* Add a vertical line for the timeline */
 div.timeline {
     background-image: url('images/line.png');
