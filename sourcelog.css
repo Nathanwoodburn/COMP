@@ -4,6 +4,8 @@ Date: 23/08/2022
 Email: comp1710@nathan.woodburn.id.au
 */
 
+/* Format table to have solid white border 0.1em thick */
+/* Add auto margins */
 table, th, td{
     border: 0.1em solid;
     background-color: white;
@@ -11,6 +13,8 @@ table, th, td{
     margin-left: auto;
     margin-right: auto;
 }
+
+/* Change link and caption colours */
 table a {
     color: #0000EE;
 }

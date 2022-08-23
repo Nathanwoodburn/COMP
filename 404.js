@@ -1,3 +1,5 @@
+// js from one of my other sites: https://hns.au which was adapted from https://codepen.io/leenalavanya/pen/OogLRd
+
 function type(n, t) {
     var str = document.getElementsByTagName("code")[n].innerHTML.toString();
     var i = 0;

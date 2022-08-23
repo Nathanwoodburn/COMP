@@ -4,12 +4,17 @@ Date: 23/08/2022
 Email: comp1710@nathan.woodburn.id.au
 */
 
+
+/* Set links to be in a block with text aligned left */
+/* Increase font size and add auto margin */
 div.links {
     display: inline-block;
     text-align: left;
     margin: auto;
     font-size: x-large;
 }
+
+/* Add extra indent for sub pages */
 p.indent {
     margin-left: 4em;
 }

@@ -4,17 +4,27 @@ Date: 23/08/2022
 Email: comp1710@nathan.woodburn.id.au
 */
 
+
 form{
+    /* Set form text to align left */
     text-align: left;
+    /* Display as table with auto margins */
     margin: auto;
     display: table;
 }
+
+/* Add gap for the buttons */
 input.button{
     margin-left: 2em;
 }
+
+/* Add gap for the text */
 input.text{
     margin: .5em;
 }
+
+/* Add gap for the radio buttons */
+/* Change radio circle */
 input.radio{
     margin-top: .5em;
     margin-left: auto;
