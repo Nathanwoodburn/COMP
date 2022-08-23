@@ -14,6 +14,7 @@
     <link rel="icon" type="image/png" sizes="512x512" href="images/NJW%20Icon%20512.png">
 </head>
 <body>
+    <!-- Navigation bar with links to about page anchors -->
     <div class="navbar">
         <ul>
             <li><a href="./">Home</a></li>
@@ -24,28 +25,42 @@
         </ul>
     </div>
 
+    <!-- Add main title of page -->
     <h1 class="orange">Feedback</h1>
+
     <h3>Do you have anything you would like to share?<br>
         Please use the form below to send me your feedback<br>
         This form will open your default email client in order to email the form results.</h3>
     <br>
+    
+    <!-- Add form for users to fill and email -->
+
     <form action="mailto:COMP1710@nathan.woodburn.id.au" method="post" enctype="text/plain">
         Your Name:
         <input class="text" type="text" name="Name"><br>
+
         Your Email:
         <input class="text" type="email" name="Email"><br>
+
         Gender:<br>
         <input class="radio" type="radio" id="Male" name="Gender" value="Male">
         <label for="Male">Male</label><br>
+
         <input class="radio" type="radio" id="Female" name="Gender" value="Female">
-        <label for="Female">Female</label><br>  
+        <label for="Female">Female</label><br>
+
         <input class="radio" type="radio" id="Other" name="Gender" value="Other">
         <label for="Other">Other</label><br>
+
         <input class="radio" type="radio" id="Unspecified" name="Gender" value="Unspecified">
         <label for="Unspecified">I prefer not to say</label><br><br>
+
+        <!-- Add multiline text box for main message -->
         Please fill in your feedback:<br>
         <textarea id="feedback" name="feedback" rows="4" cols="50" placeholder="Tell me whatever you want here..."></textarea>
         <br><br>
+
+        <!-- Submit and cancel buttons -->
         <input class="button" type="submit" value="Submit">
         <input class="button" type="reset" value="Clear">
     </form>

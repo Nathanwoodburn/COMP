@@ -17,7 +17,7 @@
     <link rel="icon" type="image/png" sizes="512x512" href="images/NJW%20Icon%20512.png">
 </head>
 <body>
-    
+    <!-- Navigation bar with links to about page anchors -->
     <div class="navbar">
         <ul>
             <li><a href="./">Home</a></li>
@@ -28,8 +28,13 @@
             <li><a href="#timeline">Timeline</a></li>
         </ul>
     </div>
+
+    <!-- Add profile photo of me -->
     <img class="profile" src="images/profile.jpg" alt="Profile Picture of Nathan Woodburn">
+
+    <!-- Add anchors -->
     <a id="about"></a>
+    <!-- Add about me paragraph and title -->
     <h1 class="orange">About Me</h1>
     <p>
         G'day, I'm Nathan Woodburn<br>
@@ -39,6 +44,8 @@
         We are decentralizing the root zone of the internet<br>
         I'm currently studying Engineering at <a href="https://anu.edu.au" target="_blank">ANU</a>
     </p>
+
+    <!-- Add list of goals -->
     <a id="goals"></a>
     <h1>Goals</h1>
     <p>Here are some things I hope to do in the future</p>
@@ -48,9 +55,12 @@
         <li>Get a Job that I enjoy</li>
         <li>Get a Wife</li>
         <li>Start a Family</li>
+        <!-- Use class clean to remove number from list -->
         <li class="clean">And Enjoy Life</li>
 
     </ol>
+
+    <!-- Add hobbies info -->
     <a id="hobbies"></a>
     <h1>My Hobbies</h1>
     <p>
@@ -58,22 +68,30 @@
         I like to make stuff with Arduinos<br>
         I'm interested in programing and I'm alright in these languages
     </p>
-        <ul>
-            <li class="clean">C#</li>
-            <li class="clean">Arduino (C++/C)</li>
-            <li class="clean">Python</li>
-            <li class="clean">Visual Basic</li>
-            <li class="clean">And some other languages</li>
-        </ul>
+
+    <!-- Add unordered list without bullets -->
+    <ul>
+        <li class="clean">C#</li>
+        <li class="clean">Arduino (C++/C)</li>
+        <li class="clean">Python</li>
+        <li class="clean">Visual Basic</li>
+        <li class="clean">And some other languages</li>
+    </ul>
+
+    <!-- Timeline -->
     <a id="timeline"></a>
     <h1>What's Happened so far</h1>
+
+    <!-- Add div for a timeline -->
     <div class="timeline">
 
+        <!-- Add an event to the timeline with icon on the left of the line  -->
         <div class="event timeleft">
             <p class="timeline">Started Home Education</p>
         </div>
         <h2 class="timeleft">2008<br><img class="timeline invert" src="images/school.png" alt="Schooling"></h2>
 
+        <!-- Same as above except on the opposite side -->
         <div class="event timeright">
             <p class="timeline">Started Developing C# Apps</p>
         </div>
@@ -95,11 +113,16 @@
         <h2 class="timeleft">2022<br><img class="timeline" src="images/bb.svg" alt="Boys' Brigade"></h2>
         
     </div>
+    <!-- End Timeline -->
+
+    <!-- Add Socials -->
     <div class="social">
         <a href="https://www.fb.com/nathanjwoodburn" target="_blank"><img class="social" src="images/facebook.jpg" alt="Facebook"></a>
         <a href="https://github.com/Nathanwoodburn/" target="_blank"><img class="social" src="images/github.jpg" alt="Github"></a>
         <a href="mailto:COMP1710@nathan.woodburn.id.au?subject=COMP1710%20Website" target="_blank"><img class="social" src="images/email.jpg" alt="Email"></a>
     </div>
+
+    <!-- Add footer -->
     <footer>
         <a href="feedback" target="_blank">Feedback</a>
         <a href="sourcelog" target="_blank">Sources</a>
