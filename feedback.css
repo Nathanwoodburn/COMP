@@ -35,6 +35,7 @@ form{
 
 /* Add gap for the buttons and set colour */
 input.button{
+    font-size: x-large;
     margin-left: 2em;
     background-color: white;
     color: black;
