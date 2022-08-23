@@ -4,3 +4,6 @@ div.links {
     margin: auto;
     font-size: x-large;
 }
+p.indent {
+    margin-left: 4em;
+}
