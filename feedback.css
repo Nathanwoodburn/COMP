@@ -4,6 +4,18 @@ Date: 23/08/2022
 Email: comp1710@nathan.woodburn.id.au
 */
 
+/* Set height for gradient */
+html{
+    height: 100%;
+}
+    /* Set colour */
+body{
+    background: linear-gradient(#21355a, #000000);
+    color: white;
+}
+a {
+    color: orange;
+}
 
 form{
     /* Set form text to align left */
@@ -11,11 +23,26 @@ form{
     /* Display as table with auto margins */
     margin: auto;
     display: table;
+    width: 400px;
+    padding: 40px;
+    background: rgba(0,0,0,.5);
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0,0,0,.6);
+    border-radius: 10px;
 }
 
-/* Add gap for the buttons */
+
+
+/* Add gap for the buttons and set colour */
 input.button{
     margin-left: 2em;
+    background-color: white;
+    color: black;
+}
+/* Change colour on hover */
+input.button:hover{
+    background-color: black;
+    color: white;
 }
 
 /* Add gap for the text */
