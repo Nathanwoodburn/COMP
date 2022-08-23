@@ -96,6 +96,7 @@ img.social {
     position: absolute;
     width: 95%;
     bottom: 1em;
+    margin-top: 2em;
 }
 /* Add gap between content and footer */
 footer {
