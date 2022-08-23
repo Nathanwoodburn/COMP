@@ -91,7 +91,7 @@ img.social {
     border-radius: 50%;
 }
 
-/* Stick div to the bottom of page of desktop only */
+/* Stick footer to the bottom of page of large screens only */
 @media only screen
 and (min-device-width: 650px)
 {
