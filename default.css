@@ -1,71 +1,134 @@
+/*
+Name: Nathan Woodburn 
+Date: 23/08/2022
+Email: comp1710@nathan.woodburn.id.au
+*/
+
+/* CSS Sheet for all pages */
+
+/* Set the website background to black and the text colour to while. */
+/* Center all text */
 body {
     background-color: black;
     color: white;
     text-align: center;
 }
+
+/* Set a link colour */
 a {
-    color: rgb(255, 67, 255);
+    color: rgb(0, 34, 184);
 }
-/* This ul style removes the bullets from unordered lists */
-ul {
+
+/* Increase font size */
+h1 {
+    font-size: 3em;
+}
+
+/* Add style for orange header */
+h1.orange {
+    color: orange;
+}
+
+/* Set lists to be aligned lef t*/
+ul, ol {
+    display: inline-block;
+    text-align: left;
+}
+
+/* Remove bullets/numbers from list items */
+li.clean {
     list-style-type: none;
 }
-#navbar {
+
+/* Navbar Styles */
+.navbar {
+    /* Set a orange background with rounded corners */
     background-color: orange;
     border-radius: 0.5em;
 
-    /* margin: 0em 10em 5em 10em; */
+    /* Set width to not span page */
     width: 22em;
-    margin: auto;
+
+    /* Add margin to center bar and add gaps between other elements */
+    margin: 1em auto 1em auto;
+
+    /* Set font size and transform all link text to uppercase */
     font-size: 1.5em;
-    text-transform:uppercase;
+    text-transform: uppercase;
 }
-#navbar ul {
-    padding: 0.5em 0em;
+
+.navbar ul {
+    /* Add margin around whole list of links */
+    margin: 0.4em 0 0.4em 0;
+
+    /* Remove padding to fix centering issues */
+    padding: 0;
 }
-#navbar li {
-    display: inline;
-    padding: 1.5em;
+
+.navbar li {
+    /* Set links to be inline and with a gab between each link */
+    display: inline-block;
+    margin-inline: .1em;
+
+    /* Center text - Only seen on small screens */
+    text-align: center;
 }
-#navbar a { 
+
+.navbar a {
+    /* Remove underline of links and add new dashed underline */
     text-decoration:none;
-    color: rgb(53, 4, 53);
     border-style: none none dashed none;
     border-width: 0.1em;
+
+    /* Set colour of links */
+    color: rgb(53, 4, 53);
 }
+
+/* Social icon resize and rounded */
 img.social {
     width:5em;
     height:5em;
     border-radius: 50%;
 }
-h1.orange {
-    color: orange;
+
+/* Stick div to the bottom of page */
+.sticky {
+    position: absolute;
+    width: 95%;
+    bottom: 1em;
+}
+/* Add gap between content and footer */
+footer {
+    margin-top: 1em;
 }
 
-footer {
-    margin-top: 2em;
-}
+
+/* Set footer links to have extra gap between */
 footer a{
     margin: 0 2%;
 }
-/* Make text in footer inline with links and don't allow spliting the text*/
+
+/* Make text in footer inline with links and don't allow spliting the text */
 /* This moves the text down below links when on mobile */
 footer p {
     display: inline;
-    white-space: nowrap ;
+    white-space: nowrap;
+    font-size: large;
 }
 
-/* Change format for navbar on smaller screens */
+/* Change format for navbar on screens under 550 pixels width */
 @media only screen 
 and (max-device-width: 550px)
 {
-    #navbar {
-        width: 6em;
+    /* Shrink navbar */
+    .navbar {
+        width: 7em;
     }
-    #navbar li{
+
+    /* Fix centering issues */
+    .navbar li{
         
         display: block;
         height: 1.5em;
-        padding: 0;
       }
 }

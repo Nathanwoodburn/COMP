@@ -1,3 +1,10 @@
+/*
+Name: Nathan Woodburn 
+Date: 23/08/2022
+Email: comp1710@nathan.woodburn.id.au
+*/
+
+
 body{
     /* Add background to body of page */
     background-image: url('images/about-bg.jpg');
@@ -8,8 +15,82 @@ body{
     background-attachment: fixed;
     background-position: bottom;
 }
+
+/* Add rounded corners and resize*/
 img.profile {
     width:15em;
     height:15em;
     border-radius: 50%;
+}
+
+/* Change text size */
+ol, p, p.timeline, li {
+    font-size: x-large;
+}
+
+/* Add a vertical line for the timeline */
+div.timeline {
+    background-image: url('images/line.png');
+    background-repeat: repeat-y;
+    background-position: center;
+    background-size: 1em;
+    margin: 3em auto 1em auto;
+}
+
+/* Add background colour for timeline events */
+div.event {
+    display: inline-block;
+    background-color: black;
+
+    /* Add extra border around text */
+    border-style: solid;
+    border-color: black;
+    border-width: 0.5em 1em;
+    border-radius: 10%;
+    width: 15em;
+}
+
+/* Add margin for events on left and right of line */
+div.timeleft {
+    margin-left: 18em;
+}
+div.timeright {
+    margin-right: 18em;
+}
+
+/* Align text to the right or left of line and raise text to in line with image */
+h2.timeleft {
+    margin-right: 6.5em;
+    position: relative;
+    top: -6em;
+}
+h2.timeright {
+    margin-left: 6.5em;
+    position: relative;
+    top: -6em;
+}
+
+/* Add extra gap between image and text and resize image*/
+img.timeline {
+    margin-top: 0.1em;
+    width: 4em;
+}
+
+/* Invert images for better contrast */
+img.invert {
+    filter: invert();
+}
+
+/* Dynamic Sizing for timeline */
+@media only screen 
+and (max-device-width: 650px)
+{
+    div.timeleft {
+        margin-left: 14em;
+        width: 10em;        
+    }
+    div.timeright {
+        margin-right: 14em;
+        width: 10em; 
+    }
 }
