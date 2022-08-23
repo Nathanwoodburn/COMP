@@ -1,11 +1,12 @@
+<!-- Initialize HTML with Australian English and sized to work on mobile -->
 <!DOCTYPE html>
 <html lang="en-au">
 <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nathan Woodburn</title>
     <link rel="stylesheet" href="default.css">
+    <link rel="stylesheet" href="index.css">
     <link rel="icon" type="image/png" sizes="16x16" href="images/NJW%20Icon%2016.png">
     <link rel="icon" type="image/png" sizes="32x32" href="images/NJW%20Icon%2032.png">
     <link rel="icon" type="image/png" sizes="180x180" href="images/NJW%20Icon%20180.png">
@@ -13,7 +14,40 @@
     <link rel="icon" type="image/png" sizes="512x512" href="images/NJW%20Icon%20512.png">
 </head>
 <body>
-<h1>Hello</h1>
+    <div class="navbar">
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="me">About</a></li>
+            <li><a href="me#goals">Goals</a></li>
+            <li><a href="me#hobbies">Hobbies</a></li>
+            <li><a href="me#timeline">Timeline</a></li>
+        </ul>
+    </div>
+    <h1 class="orange">G'day, 👋</h1>
+    <p class="intro">
+        Welcome to my website<br>
+        I'm Nathan and I have made this website to tell you about myself.<br>
+        I've included a short <a href="me">blurb about me</a> as well as some <a href="me#goals">goals</a> and <a href="me#hobbies">hobbies</a> of mine<br>
+        So have a look around.
+    </p>
+    <p>
+        If you have any feedback on my site please visit the <a href="feedback">feedback page</a><br>
+        And if you want to know where I got something from have a look at <a href="sourcelog">my sources</a>
+    </p>
 
+    <!-- Add a div to stick to the bottom of the page with footer and socials -->
+    <div class="sticky">
+        <div class="social">
+            <a href="https://www.fb.com/nathanjwoodburn" target="_blank"><img class="social" src="images/facebook.jpg" alt="Facebook"></a>
+            <a href="https://github.com/Nathanwoodburn/" target="_blank"><img class="social" src="images/github.jpg" alt="Github"></a>
+            <a href="mailto:COMP1710@nathan.woodburn.id.au?subject=COMP1710%20Website" target="_blank"><img class="social" src="images/email.jpg" alt="Email"></a>
+        </div>
+        <footer>
+            <a href="feedback" target="_blank">Feedback</a>
+            <a href="sourcelog" target="_blank">Sources</a>
+            <a href="sitemap" target="_blank">Sitemap</a>
+            <p>&copy; Nathan Woodburn 2022</p>
+        </footer>
+    </div>
 </body>
 </html>
