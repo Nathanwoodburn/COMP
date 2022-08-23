@@ -33,11 +33,6 @@ ul {
     border-style: none none dashed none;
     border-width: 0.1em;
 }
-img.profile {
-    width:15em;
-    height:15em;
-    border-radius: 50%;
-}
 img.social {
     width:5em;
     height:5em;

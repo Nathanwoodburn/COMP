@@ -1,0 +1,15 @@
+body{
+    /* Add background to body of page */
+    background-image: url('images/about-bg.jpg');
+    /* Set the image to not repeat and cover the whole page */
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* Focus on the bottom of the image to crop out extra sky */
+    background-attachment: fixed;
+    background-position: bottom;
+}
+img.profile {
+    width:15em;
+    height:15em;
+    border-radius: 50%;
+}
