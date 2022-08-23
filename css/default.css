@@ -98,7 +98,7 @@ img.social {
 
 /* Stick footer to the bottom of page of large screens only */
 @media only screen
-and (min-device-width: 650px)
+and (min-device-width: 850px)
 {
     .sticky {
         position: absolute;
@@ -108,7 +108,7 @@ and (min-device-width: 650px)
     }
 }
 @media only screen
-and (max-device-width: 650px)
+and (max-device-width: 850px)
 {
     .sticky {
         margin-top: 5em;
