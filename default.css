@@ -6,6 +6,11 @@ Email: comp1710@nathan.woodburn.id.au
 
 /* CSS Sheet for all pages */
 
+/* Add smooth scrolling to anchors */
+html {
+	scroll-behavior: smooth;
+}
+
 /* Set the website background to black and the text colour to while. */
 /* Center all text */
 body {
