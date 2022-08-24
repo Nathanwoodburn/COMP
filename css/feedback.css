@@ -62,7 +62,8 @@ input.radio{
     border-radius: 50%;
 }
 
-/* Remove option to resize text area */
+/* Remove option to resize text area and set width to fill div*/
 textarea {
     resize: none;
+    width: 100%;
 }

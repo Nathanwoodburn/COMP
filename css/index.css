@@ -10,3 +10,7 @@ Email: comp1710@nathan.woodburn.id.au
 p.intro {
  font-size: x-large;
 }
+
+p.smaller {
+    margin-top: 4em;
+}
