@@ -36,6 +36,11 @@ p.goals {
     margin: 0;
 }
 
+/* Add gap for list items with class gap */
+li.gap {
+    margin-bottom: 0.5em;
+}
+
 
 /* Add a vertical line for the timeline */
 div.timeline {
