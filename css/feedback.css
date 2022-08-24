@@ -11,6 +11,8 @@ html{
     /* Set colour */
 body{
     background: linear-gradient(#21355a, #000000);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     color: white;
 }
 a {
