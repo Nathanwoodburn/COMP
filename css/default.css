@@ -98,7 +98,7 @@ img.social {
 
 /* Stick footer to the bottom of page of large screens only */
 @media only screen
-and (min-device-width: 850px)
+and (min-width: 850px)
 {
     .sticky {
         position: absolute;
@@ -108,7 +108,7 @@ and (min-device-width: 850px)
     }
 }
 @media only screen
-and (max-device-width: 850px)
+and (max-width: 850px)
 {
     .sticky {
         margin-top: 5em;
@@ -135,7 +135,7 @@ footer p {
 
 /* Change format for navbar on screens under 550 pixels width */
 @media only screen 
-and (max-device-width: 550px)
+and (max-width: 550px)
 {
     /* Shrink navbar */
     .navbar {

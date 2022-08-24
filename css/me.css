@@ -92,12 +92,12 @@ img.timeline {
 
 /* Invert images for better contrast */
 img.invert {
-    filter: invert();
+    filter: invert(100%);
 }
 
 /* Dynamic Sizing for timeline */
 @media only screen 
-and (max-device-width: 650px)
+and (max-width: 650px)
 {
     div.timeleft {
         margin-left: 14em;
