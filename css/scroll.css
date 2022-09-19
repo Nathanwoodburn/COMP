@@ -1,5 +1,7 @@
 /* CSS for scrolling animation */
-
+body {
+    overflow-x: hidden;
+}
 
 .left {
     transform: translateX(-100%);

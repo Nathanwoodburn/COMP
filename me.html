@@ -20,6 +20,10 @@ Email: comp1710@nathan.woodburn.id.au
     <script defer src="scroll.js"></script>
     <link rel="stylesheet" href="css/scroll.css">
 
+    <!-- Link javascript for back to top button -->
+    <script defer src="totop.js"></script>
+
+
     <!-- Add favicons -->
     <link rel="icon" type="image/png" sizes="16x16" href="images/NJW%20Icon%2016.png">
     <link rel="icon" type="image/png" sizes="32x32" href="images/NJW%20Icon%2032.png">
@@ -28,18 +32,18 @@ Email: comp1710@nathan.woodburn.id.au
     <link rel="icon" type="image/png" sizes="512x512" href="images/NJW%20Icon%20512.png">
 </head>
 <body>
-    <!-- Navigation bar with links to about page anchors -->
+    <!-- Navigation bar with links and icon -->
     <div class="navbar">
+        <a href="./"><img src="images/Nav Icon.png"></a>
         <ul>
             <li><a href="./">Home</a></li>
-            <!-- Go to top of page -->
             <li><a href="#">About</a></li>
             <li><a href="#goals">Goals</a></li>
             <li><a href="#hobbies">Hobbies</a></li>
             <li><a href="#timeline">Timeline</a></li>
         </ul>
     </div>
-
+    
     <!-- Add profile photo of me -->
     <img class="profile" src="images/profile.png" alt="Profile Picture of Nathan Woodburn">
 
@@ -184,7 +188,7 @@ Email: comp1710@nathan.woodburn.id.au
             </div>
             <h2 class="timeleft">2017<br><img class="timeline invert" src="images/www.png" alt="World Wide Web Icon"></h2>
         </div>
-        
+
         <div class="hidden right">
             <div class="event timeright">
                 <p class="timeline">3D Printing Service</p>
@@ -229,6 +233,16 @@ Email: comp1710@nathan.woodburn.id.au
         <a href="sitemap" target="_blank">Site Map</a>
         <p>&copy; Nathan Woodburn 2022</p>
     </footer>
+
+
+
+    <div id="totop" class="totop">
+        <ul>
+            <li>^</li>
+            <li>^</li>
+            <li>^</li>
+        </ul>
+    </div>
 </body>
 
 </html>
