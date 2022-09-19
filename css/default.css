@@ -12,11 +12,13 @@ html {
 }
 
 /* Set the website background to black and the text colour to while. */
-/* Center all text */
+/* Center all text and change font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 body {
     background-color: black;
     color: white;
     text-align: center;
+    font-family: 'Poppins',sans-serif;
 }
 
 /* Set a link colour */

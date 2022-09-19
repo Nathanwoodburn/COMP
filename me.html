@@ -15,6 +15,11 @@ Email: comp1710@nathan.woodburn.id.au
     <!-- Link to Stylesheets -->
     <link rel="stylesheet" href="css/default.css">
     <link rel="stylesheet" href="css/me.css">
+
+    <!-- Add js for scroll and relevant css -->
+    <script defer src="scroll.js"></script>
+    <link rel="stylesheet" href="css/scroll.css">
+
     <!-- Add favicons -->
     <link rel="icon" type="image/png" sizes="16x16" href="images/NJW%20Icon%2016.png">
     <link rel="icon" type="image/png" sizes="32x32" href="images/NJW%20Icon%2032.png">
@@ -36,7 +41,7 @@ Email: comp1710@nathan.woodburn.id.au
     </div>
 
     <!-- Add profile photo of me -->
-    <img class="profile" src="images/profile.jpg" alt="Profile Picture of Nathan Woodburn">
+    <img class="profile" src="images/profile.png" alt="Profile Picture of Nathan Woodburn">
 
     <!-- Add anchors -->
     <a id="about"></a>
@@ -158,42 +163,55 @@ Email: comp1710@nathan.woodburn.id.au
     <div class="timeline">
 
         <!-- Add an event to the timeline with icon on the left of the line  -->
-        <div class="event timeleft">
-            <p class="timeline">Started Home Education</p>
-        </div>
+        <div class="hidden left">
+            <div class="event timeleft">
+                <p class="timeline">Started Home Education</p>
+            </div>
         <h2 class="timeleft">2008<br><img class="timeline invert" src="images/school.png" alt="Schooling"></h2>
+        </div>
 
         <!-- Same as above except on the opposite side -->
-        <div class="event timeright">
-            <p class="timeline">Started Developing C# Apps</p>
+        <div class="hidden right">
+            <div class="event timeright">
+                <p class="timeline">Started Developing C# Apps</p>
+            </div>
+            <h2 class="timeright">2015<br><img class="timeline" src="images/coding.png" alt="Coding"></h2>
         </div>
-        <h2 class="timeright">2015<br><img class="timeline" src="images/coding.png" alt="Coding"></h2>
 
-        <div class="event timeleft">
-            <p class="timeline">Setup 1st Website</p>
+        <div class="hidden left">
+            <div class="event timeleft">
+                <p class="timeline">Setup 1st Website</p>
+            </div>
+            <h2 class="timeleft">2017<br><img class="timeline invert" src="images/www.png" alt="World Wide Web Icon"></h2>
         </div>
-        <h2 class="timeleft">2017<br><img class="timeline invert" src="images/www.png" alt="World Wide Web Icon"></h2>
-
-        <div class="event timeright">
-            <p class="timeline">3D Printing Service</p>
-        </div>
-        <h2 class="timeright">2021<br><img class="timeline" src="https://nathan3dprinting.business/assets/img/favicon/N3D_Logo.png" alt="Nathan 3D Printing"></h2>
-
-        <div class="event timeleft">
-            <p class="timeline">Bought 1st TLD</p>
-        </div>
-        <h2 class="timeleft">2021<br><img class="timeline" src="https://hns.au/assets/img/favicon/transparent.png" alt="Handshake"></h2>
-
-        <div class="event timeright">
-            <p class="timeline">Started UNI</p>
-        </div>
-        <h2 class="timeright">2022<br><img class="timeline invert" src="images/school.png" alt="Uni"></h2>
-
-        <div class="event timeleft">
-            <p class="timeline">Recieved Queen's Award</p>
-        </div>
-        <h2 class="timeleft">2022<br><img class="timeline" src="images/bb.svg" alt="Boys' Brigade"></h2>
         
+        <div class="hidden right">
+            <div class="event timeright">
+                <p class="timeline">3D Printing Service</p>
+            </div>
+            <h2 class="timeright">2021<br><img class="timeline" src="https://nathan3dprinting.business/assets/img/favicon/N3D_Logo.png" alt="Nathan 3D Printing"></h2>
+        </div>
+
+        <div class="hidden left">
+            <div class="event timeleft">
+                <p class="timeline">Bought 1st TLD</p>
+            </div>
+            <h2 class="timeleft">2021<br><img class="timeline" src="https://hns.au/assets/img/favicon/transparent.png" alt="Handshake"></h2>
+        </div>
+
+        <div class="hidden right">
+            <div class="event timeright">
+                <p class="timeline">Started UNI</p>
+            </div>
+            <h2 class="timeright">2022<br><img class="timeline invert" src="images/school.png" alt="Uni"></h2>
+        </div>
+
+        <div class="hidden left">
+            <div class="event timeleft">
+                <p class="timeline">Recieved Queen's Award</p>
+            </div>
+            <h2 class="timeleft">2022<br><img class="timeline" src="images/bb.svg" alt="Boys' Brigade"></h2>
+        </div>
     </div>
     <!-- End Timeline -->
 

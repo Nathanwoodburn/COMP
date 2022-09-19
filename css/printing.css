@@ -1,0 +1,26 @@
+.gallery img {
+    width: 30em;
+    vertical-align: middle;
+    padding: 2em;
+}
+.gallery p {
+display: inline-block;
+font-size: larger;
+}
+.left {
+    text-align: left;
+}
+.right {
+    text-align: right;
+
+}
+img.map {
+    width: 75%;
+}
+img.info {
+    width: 50em;
+}
+p.info {
+    font-size: larger;
+    margin-bottom: 5em;
+}
