@@ -1,3 +1,7 @@
+.gallery {
+    height: 25em;
+}
+
 .gallery img {
     width: 30em;
     vertical-align: middle;
