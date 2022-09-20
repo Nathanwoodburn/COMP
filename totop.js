@@ -25,7 +25,10 @@ function scrollFunction() {
     } else {
         // Hide the To Top button when the page scroll is near the top
 
+        // Reset transition delay to allow smooth transition
         totop.style.transitionDelay = ""
+
+        // Set invisible
         totop.style.visibility = "hidden";
         totop.style.opacity = "0";
     }
