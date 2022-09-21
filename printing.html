@@ -18,6 +18,9 @@
     <!-- Link javascript for back to top button -->
     <script defer src="totop.js"></script>
 
+    <!-- Link to javascript to zoom image -->
+    <script src="imagezoom.js"></script>
+
     <!-- Add favicons -->
     <link rel="icon" type="image/png" sizes="16x16" href="images/NJW%20Icon%2016.png">
     <link rel="icon" type="image/png" sizes="32x32" href="images/NJW%20Icon%2032.png">
@@ -41,48 +44,59 @@
         </ul>
     </div>
 
+    <!-- Image popup window -->
+    <div id="modal" class="modal" onclick="closemodal()">
+        <!-- The Close Button -->
+        <span class="close" onclick="closemodal()">&times;</span>
+    
+        <!-- Modal Content (The Image) -->
+        <img class="modal-content" id="modalimg">
+    
+        <!-- Modal Caption (Image Text) -->
+        <div id="modalcaption"></div>
+  </div>
 
     <h1 class="orange">3D Prints</h1>
     <h3>Here are some of my 3d prints. They include some I modeled and some I downloaded files. These images also include some prints for customers of my <a href="https://nathan3dprinting.business" target="_blank">3D printing service</a></h2>
     <div class="gallery left hidden">
-        <a href="images/trolley.png" target="_blank"><img src="images/trolley.png" alt="Trolley Token"></a>
+        <img src="images/trolley.png" alt="Trolley Token" onclick="zoomimage('trolley.png','Trolley Token')">
         <p>Trolley Token<br>This is used to open shopping trolleys</p>
     </div>
     <div class="gallery right hidden">
         <p>Chair Foot<br>This was one of my first prints. It is a foot for a chair I made.</p>
-        <a href="images/foot.png" target="_blank"><img src="images/foot.png" alt="Chair Foot"></a>
+        <img src="images/foot.png" alt="Chair Foot" onclick="zoomimage('foot.png','Chair Foot')">
     </div>
     <div class="gallery left hidden">
-        <a href="images/chess.png" target="_blank"><img src="images/chess.png" alt="Chess Piece"></a>
+        <img src="images/chess.png" alt="Chess Piece" onclick="zoomimage('chess.png','Chess Piece')">
         <p>Chess Rook<br>This was my first resin print. Resin printing uses a light sensitive resin. A image is shone on the resin to harden it into a 3d object</p>
     </div>
     <div class="gallery right hidden">
         <p>Pikachu<br>A resin miniature</p>
-        <a href="images/pikachu.png" target="_blank"><img src="images/pikachu.png" alt="Pikachu"></a>
+        <img src="images/pikachu.png" alt="Pikachu" onclick="zoomimage('pikachu.png','Pikachu')">
     </div>
     <div class="gallery left hidden">
-        <a href="images/rubiks.png" target="_blank"><img src="images/rubiks.png" alt="Rubiks Cube"></a>
+        <img src="images/rubiks.png" alt="Rubiks Cube" onclick="zoomimage('rubiks.png','Rubiks Cube')">
         <p>Rubiks Cube<br>This is a working 1x2x3 rubiks cube. It is very easy to solve.</p>
     </div>
     <div class="gallery right hidden">
         <p>Gear<br>A replacement gear for a car air conditioner</p>
-        <a href="images/gear.png" target="_blank"><img src="images/gear.png" alt="Gear"></a>
+        <img src="images/gear.png" alt="Gear" onclick="zoomimage('gear.png','Gear')">
     </div>
     <div class="gallery left hidden">
-        <a href="images/fitting.png" target="_blank"><img src="images/fitting.png" alt="Light Fitting"></a>
+        <img src="images/fitting.png" alt="Light Fitting" onclick="zoomimage('fitting.png','Light Fitting')">
         <p>Light Fitting<br>A fitting to connect a light to a sheet of colorbond®️.</p>
     </div>
     <div class="gallery right hidden">
         <p>Root Storage Inserts<br>A insert for holding game parts for the game Root</p>
-        <a href="images/root.png" target="_blank"><img src="images/root.png" alt="Root Inserts"></a>
+        <img src="images/root.png" alt="Root Inserts" onclick="zoomimage('root.png','Root Insert')">
     </div>
     <div class="gallery left hidden">
-        <a href="images/lock.png" target="_blank"><img src="images/lock.png" alt="Combination Lock"></a>
+        <img src="images/lock.png" alt="Combination Lock" onclick="zoomimage('lock.png','Combination Lock')">
         <p>Combination Lock<br>This 4 number combination lock is able to have its code changed in a few minutes</p>
     </div>
     <div class="gallery right hidden">
         <p>Carabina<br>This carabina is made without any springs using the natural flexability of the plastic</p>
-        <a href="images/carabina.png" target="_blank"><img src="images/carabina.png" alt="Carabina"></a>
+        <img src="images/carabina.png" alt="Carabina" onclick="zoomimage('carabina.png','Carabina')">
     </div>
 
     <div class="printers hidden">
