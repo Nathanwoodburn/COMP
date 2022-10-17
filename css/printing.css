@@ -33,6 +33,12 @@ p.info {
     margin-bottom: 5em;
 }
 
+/* Set the z index to make sure the printers are on top of the social feed */
+.printers {
+  position: relative;
+  z-index: 1;
+}
+
 
 /* Popup image modal */
 .modal {
