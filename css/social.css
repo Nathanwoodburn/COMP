@@ -1,20 +1,24 @@
+/* Set location of social feed and height */
 .socialfeed {
     position: relative;
     top: -35em;
     height: 35em;
 }
+/* set a few visual things */
 iframe.socialframe {
 z-index: -1;
 width: 40em;
 height: 60em;
 border-width: 0;
 }
+/* Add a mask to cover unwanted website content */
 .mask {
     position: absolute;
     background-color: black;
     width: 100%;
     height: 35em;
 }
+/* Make the header on top of mask */
 h1.social {
     z-index: 2;
     position: relative;
