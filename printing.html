@@ -21,6 +21,10 @@
     <!-- Link to javascript to zoom image -->
     <script src="imagezoom.js"></script>
 
+    <!-- Light mode js -->
+    <script src="light.js"></script>
+
+
     <!-- Add favicons -->
     <link rel="icon" type="image/png" sizes="16x16" href="images/NJW%20Icon%2016.png">
     <link rel="icon" type="image/png" sizes="32x32" href="images/NJW%20Icon%2032.png">
@@ -28,7 +32,7 @@
     <link rel="icon" type="image/png" sizes="192x192" href="images/NJW%20Icon%20192.png">
     <link rel="icon" type="image/png" sizes="512x512" href="images/NJW%20Icon%20512.png">
 </head>
-<body>
+<body onload="checklight()">
     <!-- Navigation bar with links to about page anchors -->
 
     <div class="navbar">
@@ -141,6 +145,7 @@
         <a href="feedback" target="_blank">Feedback</a>
         <a href="sourcelog" target="_blank">Sources</a>
         <a href="sitemap" target="_blank">Site Map</a>
+        <button onclick="lightclick()" id="lightbutton" class="light">Light Mode</button>
         <p>&copy; Nathan Woodburn 2022</p>
     </footer>
     <div id="totop" class="totop">

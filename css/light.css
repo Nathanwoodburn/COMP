@@ -1,0 +1,28 @@
+/* Change default to black on white background */
+body {
+    background-color: white;
+    color: black;
+}
+
+/* Invert social icons */
+img.social {
+    filter: invert();
+}
+
+/* Invert Light mode button */
+button.light {
+    background-color: black;
+    color: white;
+}
+
+/* Invert back to top button */
+.totop {
+    box-shadow: inset  0 0 0 2px black;
+}
+
+/* On hover colours */
+.totop:hover {
+    color: white;
+    box-shadow: inset  0 0 0 2px white;
+    background-color: black;
+}

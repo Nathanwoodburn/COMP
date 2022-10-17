@@ -248,3 +248,9 @@ and (max-width: 550px)
     list-style: none;
     font-size: xx-large;
 }
+
+/* Light mode button */
+button.light {
+    background-color: white;
+    color: black;
+}
