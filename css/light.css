@@ -6,7 +6,7 @@ body {
 
 /* Invert social icons */
 img.social {
-    filter: invert();
+    filter: invert(1);
 }
 
 /* Invert Light mode button */

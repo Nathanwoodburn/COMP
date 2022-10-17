@@ -12,10 +12,15 @@ Email: comp1710@nathan.woodburn.id.au
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
-    <!-- Add title, css and favicons -->
+    <!-- Add title, CSS and favicons -->
     <title>Validation | Nathan Woodburn</title>
-    <link rel="stylesheet" href="css/default.css">
+    <link rel="stylesheet" href="CSS/default.CSS">
+    <link rel="stylesheet" href="CSS/validation.CSS">
     <script src="light.js"></script>
+
+    <!-- Link to javascript to zoom image -->
+    <script src="imagezoom.js"></script>
+
     <link rel="icon" type="image/png" sizes="16x16" href="images/NJW%20Icon%2016.png">
     <link rel="icon" type="image/png" sizes="32x32" href="images/NJW%20Icon%2032.png">
     <link rel="icon" type="image/png" sizes="180x180" href="images/NJW%20Icon%20180.png">
@@ -36,14 +41,93 @@ Email: comp1710@nathan.woodburn.id.au
         </ul>
     </div>
 
+        <!-- Image popup window -->
+        <div id="modal" class="modal" onclick="closemodal()">
+            <!-- The Close Button -->
+            <span class="close" onclick="closemodal()">&times;</span>
+        
+            <!-- Modal Content (The Image) -->
+            <img class="modal-content" id="modalimg" src="images/validation/index.png" alt="To be set by js">
+        
+            <!-- Modal Caption (Image Text) -->
+            <div id="modalcaption"></div>
+      </div>
     <!-- Put main heading on the page -->
 
     <h1 class="orange">Validation of pages</h1>
+    <h3>Click an image to expand it</h3>
     
-    <!-- Give a descrption of the site with links to some pages/anchors -->
-    
-    
+    <!-- Add images from validator for html -->
+    <!-- Create 2 columns -->
+    <h2>HTML Validation</h2>
+    <div class="row">
+        <div class="column">
+            <img class="validation" src="images/validation/index.png" alt="Index page Validation Check" onclick="zoomimage('validation/index.png','Index page Validation Check')">
+            <p>Index page Validation</p>
 
+            <img class="validation" src="images/validation/me.png" alt="About Me page Validation Check" onclick="zoomimage('validation/me.png','About Me page Validation Check')">
+            <p>About Me page Validation</p>
+
+            <img class="validation" src="images/validation/printing.png" alt="3D Printing page Validation Check" onclick="zoomimage('validation/printing.png','3D Printing page Validation Check')">
+            <p>3D Printing page Validation</p>
+
+            <img class="validation" src="images/validation/feedback.png" alt="Feedback page Validation Check" onclick="zoomimage('validation/feedback.png','Feedback page Validation Check')">
+            <p>Feedback page Validation</p>
+        </div>
+        <div class="column">
+            <img class="validation" src="images/validation/reflection.png" alt="Reflection page Validation Check" onclick="zoomimage('validation/reflection.png','Reflection page Validation Check')">
+            <p>Reflection page Validation</p>
+
+            <img class="validation" src="images/validation/sitemap.png" alt="Sitemap page Validation Check" onclick="zoomimage('validation/sitemap.png','Sitemap page Validation Check')">
+            <p>Sitemap page Validation</p>
+            
+            <img class="validation" src="images/validation/sourcelog.png" alt="Sourcelog page Validation Check" onclick="zoomimage('validation/sourcelog.png','Sourcelog page Validation Check')">
+            <p>Sourcelog page Validation</p>
+
+            <img class="validation" src="images/validation/validation.png" alt="Validation page Validation Check" onclick="zoomimage('validation/validation.png','Validation page Validation Check')">
+            <p>Validation page Validation</p>
+        </div>
+    </div>
+
+    <!-- Repeat for CSS -->
+    <h2>CSS Validation</h2>
+    <div class="row">
+        <div class="column">
+            <img class="validation" src="images/validation/cssdefault.png" alt="Default CSS Validation Check" onclick="zoomimage('validation/cssdefault.png','Default CSS Validation Check')">
+            <p>Default CSS Validation</p>
+
+            <img class="validation" src="images/validation/cssindex.png" alt="Index CSS Validation Check" onclick="zoomimage('validation/cssindex.png','Index CSS Validation Check')">
+            <p>Index CSS Validation</p>
+
+            <img class="validation" src="images/validation/cssme.png" alt="Me CSS Validation Check" onclick="zoomimage('validation/cssme.png','Me CSS Validation Check')">
+            <p>Me CSS Validation</p>
+
+            <img class="validation" src="images/validation/cssprinting.png" alt="Printing CSS Validation Check" onclick="zoomimage('validation/cssprinting.png','Printing CSS Validation Check')">
+            <p>Printing CSS Validation</p>
+
+            <img class="validation" src="images/validation/cssfeedback.png" alt="Feedback CSS Validation Check" onclick="zoomimage('validation/cssfeedback.png','Feedback CSS Validation Check')">
+            <p>Feedback CSS Validation</p>
+
+            <img class="validation" src="images/validation/cssscroll.png" alt="Scroll button CSS Validation Check" onclick="zoomimage('validation/cssscroll.png','Scroll button CSS Validation Check')">
+            <p>Scroll button CSS Validation</p>
+        </div>
+        <div class="column">
+            <img class="validation" src="images/validation/cssreflection.png" alt="Reflection CSS Validation Check" onclick="zoomimage('validation/cssreflection.png','Reflection CSS Validation Check')">
+            <p>Reflection CSS Validation</p>
+
+            <img class="validation" src="images/validation/csssitemap.png" alt="Sitemap CSS Validation Check" onclick="zoomimage('validation/csssitemap.png','Sitemap CSS Validation Check')">
+            <p>Sitemap CSS Validation</p>
+            
+            <img class="validation" src="images/validation/csssourcelog.png" alt="Sourcelog CSS Validation Check" onclick="zoomimage('validation/csssourcelog.png','Sourcelog CSS Validation Check')">
+            <p>Sourcelog CSS Validation</p>
+
+            <img class="validation" src="images/validation/cssvalidation.png" alt="Validation CSS Validation Check" onclick="zoomimage('validation/cssvalidation.png','Validation CSS Validation Check')">
+            <p>Validation CSS Validation</p>
+
+            <img class="validation" src="images/validation/csslight.png" alt="Light mode CSS Validation Check" onclick="zoomimage('validation/csslight.png','Light mode CSS Validation Check')">
+            <p>Light mode CSS Validation</p>
+        </div>
+    </div>
     <!-- Add a div to stick to the bottom of the page with footer and socials -->
     <div class="sticky">
         <div class="social">
