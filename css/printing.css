@@ -37,6 +37,90 @@ p.info {
 .printers {
   position: relative;
   z-index: 1;
+  padding-top: 14em;
+}
+
+
+/* Add styles for colour divs */
+.blue {
+  background-color: blue;
+  
+}
+.orange1 {
+  background-color: orange;
+  
+}
+.purple {
+  background-color: rgb(75, 0, 75);
+}
+
+
+/* Add wave affect */
+.wave {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+.wave2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.wave2 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 129px;
+}
+
+.wave2 .shape-fill {
+  fill: blue;
+}
+.wave3 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.wave3 svg {
+  position: relative;
+  display: block;
+  width: calc(203% + 1.3px);
+  height: 30px;
+}
+
+.wave3 .shape-fill {
+  fill: orange;
+}
+
+.wave4 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.wave4 svg {
+  position: relative;
+  display: block;
+  width: calc(203% + 1.3px);
+  height: 100px;
+}
+
+.wave4 .shape-fill {
+  fill: rgb(75, 0, 75);;
 }
 
 
